@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeAlpha Image Gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <h1>My Image Gallery</h1>
+
+        <p>
+            Responsive Gallery with Lightbox
+        </p>
+
+    </header>
+
+    <!-- ================= FILTER BUTTONS ================= -->
+
+    <section class="filter-buttons">
+
+        <button class="active" data-filter="all">
+            All
+        </button>
+
+        <button data-filter="nature">
+            Nature
+        </button>
+
+        <button data-filter="city">
+            City
+        </button>
+
+        <button data-filter="animals">
+            Animals
+        </button>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="gallery">
+
+        <!-- Nature -->
+
+        <div class="gallery-item nature">
+
+            <img src="images/image1.jpg"
+            alt="Nature 1">
+
+        </div>
+
+        <div class="gallery-item nature">
+
+            <img src="images/image2.jpg"
+            alt="Nature 2">
+
+        </div>
+
+        <!-- City -->
+
+        <div class="gallery-item city">
+
+            <img src="images/image3.jpg"
+            alt="City 1">
+
+        </div>
+
+        <div class="gallery-item city">
+
+            <img src="images/image4.jpg"
+            alt="City 2">
+
+        </div>
+
+        <!-- Animals -->
+
+        <div class="gallery-item animals">
+
+            <img src="images/image5.jpg"
+            alt="Animal 1">
+
+        </div>
+
+        <div class="gallery-item animals">
+
+            <img src="images/image6.jpg"
+            alt="Animal 2">
+
+        </div>
+
+        <!-- Nature -->
+
+        <div class="gallery-item nature">
+
+            <img src="images/image7.jpg"
+            alt="Nature 3">
+
+        </div>
+
+        <!-- City -->
+
+        <div class="gallery-item city">
+
+            <img src="images/image8.jpg"
+            alt="City 3">
+
+        </div>
+
+    </section>
+
+    <!-- ================= LIGHTBOX ================= -->
+
+    <div class="lightbox">
+
+        <span class="close">
+
+            &times;
+
+        </span>
+
+        <button class="prev">
+
+            <i class="fa-solid fa-angle-left"></i>
+
+        </button>
+
+        <img
+        class="lightbox-image"
+        src=""
+        alt="">
+
+        <button class="next">
+
+            <i class="fa-solid fa-angle-right"></i>
+
+        </button>
+
+        <div class="caption"></div>
+
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 CodeAlpha Image Gallery |
+            Made by Vedant Parashar
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
